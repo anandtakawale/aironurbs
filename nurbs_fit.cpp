@@ -2,9 +2,10 @@
 
 int main()
 {
-	int i;
+	int i,cpt;
 	ifstream in("input.dat",ios::in);
-	in>>n>>c>>dpt;
+	in>>cpt>>c>>dpt;
+	n=cpt-1;
 	cout<<"n="<<n<<endl<<"c="<<c<<endl<<"dpt="<<dpt<<endl;
 	basis=new double[n+c+1];
 	N= new double*[dpt];
