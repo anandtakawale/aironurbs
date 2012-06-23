@@ -14,7 +14,7 @@ void fit(void)
 {
 	int i,j;
 	double numer,denom=0.00,e;
-	ifstream ipf("naca4415.dat",ios::in);
+	ifstream ipf("NACA_0012.dat",ios::in);
 	ofstream opf("out_para.dat",ios::out);
 	ofstream opf1("gnu_para.dat",ios::out);
 	cout<<"Enter the value of e:";

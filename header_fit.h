@@ -16,5 +16,6 @@ using namespace std;
 #include "lu_inverse.cpp"
 #include "solve.cpp"
 #include "generate_cpts.cpp"
+#include "clamp.cpp"
 
 #endif

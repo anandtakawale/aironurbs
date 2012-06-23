@@ -5,7 +5,7 @@ int main()
 	int i,cpt;
 	ifstream in("input.dat",ios::in);
 	in>>cpt>>c>>dpt;
-	n=cpt-1;
+	n=(cpt-1)/2;
 	cout<<"n="<<n<<endl<<"c="<<c<<endl<<"dpt="<<dpt<<endl;
 	basis=new double[n+c+1];
 	N= new double*[dpt];
@@ -22,5 +22,6 @@ int main()
 	lu_inverse();
 	solve();
 	generate_cpts();
+	clamp();
 	return 0;
 }
